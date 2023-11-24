@@ -1,0 +1,75 @@
+.header{
+
+  display: flex;
+  justify-content: space-between;
+
+}
+
+
+.image-container {
+  display: flex;
+  margin: 0 auto;
+  top: 0%;
+  left: 0%;
+  position:absolute;
+}
+
+.imagem{
+  width: 30%;
+  height: auto;
+  margin-left: auto;
+
+}
+
+
+.imagem2{
+  width: 70%;
+  height: auto;
+  margin-left: auto;
+
+}
+
+.home {
+  background: src('assets/barbearia.jpg') center/cover no-repeat;
+  background: linear-gradient(#FEFEFE, #2c2c2c);
+  text-align: center;
+  padding: 300px; /* Adjust top and bottom padding as needed */
+  margin-left: -20px;
+  width: 100vw; /* 100% of the viewport width */
+  font-family: 'Magnitudes Extra Bold', sans-serif;
+}
+
+.content-container {
+  max-width: 1200px; /* Set a maximum width for the content container */
+  margin: 0 auto; /* Center the container horizontally */
+}
+
+.main-heading {
+  font-size: 30px;
+  font-weight: bold;
+  color: black;
+  font-weight: bold;
+}
+
+
+.card {
+  background-color: white; /* Set background color for the card */
+  padding: 20px;
+  border-radius: 8px; /* Add border-radius for rounded corners */
+  margin-top: 20px; /* Adjust top margin as needed */
+  font-weight: bold;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border: 2px solid gray;
+
+}
+
+.p-toolbar-start a {
+  margin-right: 20px; /* Adjust the margin to your preferred spacing */
+  color: black;
+}
+
+
+
+
